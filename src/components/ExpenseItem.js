@@ -4,3 +4,5 @@ function ExpenseItem() {
         Expense Item!
     </h2>
 }
+
+export default ExpenseItem;
