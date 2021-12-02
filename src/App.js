@@ -5,14 +5,7 @@ import ExpenseItem from './components/ExpenseItem'
 
 function App() {
   return (
-   <div>
-     <div>
-         <h2>Title</h2>
-     </div>
-       <div>
-           Summary
-       </div>
-   </div>
+      <ExpenseItem> </ExpenseItem>
   );
 }
 
