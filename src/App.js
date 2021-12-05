@@ -4,12 +4,26 @@ import ExpenseItem from './components/ExpenseItem'
 
 
 function App() {
+    const expenses=[
+        {
+            id:'e1',
+            title:'Toilet Paper',
+            amount:100.12,
+            date:new Date(2021,12,3)
+        },
+        {
+            id:'e2',
+            title:'Milk',
+            amount:4.12,
+            date:new Date(2021,12,3)
+        }
+    ]
   return (
       <div>
         <h2> Let's get started</h2>
-      <ExpenseItem> </ExpenseItem>
-          <ExpenseItem> </ExpenseItem>
-          <ExpenseItem> </ExpenseItem>
+      <ExpenseItem title={expenses[0].title}> </ExpenseItem>
+          <ExpenseItem title={expenses[1].title}> </ExpenseItem>
+
       </div>
   );
 }
