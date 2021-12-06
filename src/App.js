@@ -15,7 +15,7 @@ function App() {
             id:'e2',
             title:'Milk',
             amount:4.12,
-            date:new Date(2021,12,3)
+            date:new Date(2021,12,4)
         }
     ]
   return (
