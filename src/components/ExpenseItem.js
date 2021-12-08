@@ -7,7 +7,7 @@ function ExpenseItem(props) {
     return <div className="expense-item">
         <div>
             <div>{props.date.toLocaleString('en-US',{month:'long'})}</div>
-            <div>Day</div>
+            <div>{props.date.toLocaleString('en-US',{day:'2-digit'})}</div>
             <div>Year</div>
         </div>
         <div className ="expense-item__description">
