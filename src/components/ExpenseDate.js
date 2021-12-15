@@ -5,7 +5,7 @@ function ExpenseDate(props){
 
     
     return (
-        <div>
+        <div className="expense-date">
             <div>{props.date.toLocaleString('en-US',{month:'long'})}</div>
             <div>{props.date.toLocaleString('en-US',{day:'2-digit'})}</div>
             <div>{props.date.getFullYear()}</div>
