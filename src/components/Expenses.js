@@ -9,9 +9,9 @@ function Expenses(props){
             amount={props.expenses[0].amount} >
         </ExpenseItem>
         <ExpenseItem
-            date={expenses[1].date}
-            title={expenses[1].title}
-            amount={expenses[1].amount}>
+            date={props.expenses[1].date}
+            title={props.expenses[1].title}
+            amount={props.expenses[1].amount}>
         </ExpenseItem>
     </div>
 }
