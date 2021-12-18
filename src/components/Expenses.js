@@ -4,9 +4,9 @@ function Expenses(props){
 
     return <div>
         <ExpenseItem
-            date={expenses[0].date}
-            title={expenses[0].title}
-            amount={expenses[0].amount} >
+            date={props.expenses[0].date}
+            title={props.expenses[0].title}
+            amount={props.expenses[0].amount} >
         </ExpenseItem>
         <ExpenseItem
             date={expenses[1].date}
